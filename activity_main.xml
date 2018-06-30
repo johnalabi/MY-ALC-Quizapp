@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizappp.MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp16.MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="450sp"
+            android:src="@drawable/front_img"
+            android:layout_marginTop="15sp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/click_button"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/click_botton"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proudly_text"
+            android:textSize="14sp"
+            android:layout_marginLeft="20sp"
+            android:id="@+id/proudly_text"
+            android:layout_marginTop="10sp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80sp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/andela"/>
+
+            <ImageViewb
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/udacity"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/google_img"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
